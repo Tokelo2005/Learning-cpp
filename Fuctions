@@ -1,0 +1,45 @@
+#include <iostream>
+#include <string>
+using namespace std;
+//task 1
+
+void tittle(){
+    cout<<"==============================="<<endl;
+    cout<<"       WELCOME STUDENT"<<endl;
+    cout<<"==============================="<<endl;
+}
+//Task 2
+
+void tittle2(string name, int age){
+
+     cout<< "    Name : "<<name<<endl;
+     cout<< "    Age  : "<<age<<endl;
+     cout<<endl;
+     cout<<"==============================="<<endl;
+}
+//Task 3
+
+void rectangle(int length, int width){
+cout<< "Area of a Rectangle is : "<<length*width<<endl;     
+}
+    
+//Task 4    
+void tittle2update(string name2,int age2){
+    cout<<"Enter Name : ";
+       cin>>name2;
+       cout<<"Enter Age :";
+        cin>>age2;
+    cout<<"Name : "<<name2<<endl;
+    cout<<"Age : "<<age2<<endl;
+}
+//Test
+ void test(int a, int b){
+     cout<<a +b;
+ }
+int main(){
+    string name2;
+    int age2;
+
+   tittle2update(name2,age2);
+    return 0;
+}
